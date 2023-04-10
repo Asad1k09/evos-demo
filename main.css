@@ -1,0 +1,34 @@
+.parent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.child {
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid black;
+	width: 300px;
+}
+.img {
+	width: 300px;
+}
+.txt {
+	color: #9aa6ac;
+	font-size: 17px;
+}
+.price {
+	color: #309b42;
+	font-weight: 600;
+	font-size: 20px;
+}
+.bucket {
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+	font-size: 20px;
+	transition: .4s ease;
+	padding: 15px 90px;
+}
+.bucket:hover {
+	background-color: #ffcd00;
+}
